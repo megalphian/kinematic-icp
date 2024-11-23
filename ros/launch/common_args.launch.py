@@ -22,12 +22,12 @@ def generate_launch_description():
             ),
             DeclareLaunchArgument(
                 "lidar_odom_frame",
-                default_value="odom_lidar",
+                default_value="odom",
                 description="",
             ),
             DeclareLaunchArgument(
                 "wheel_odom_frame",
-                default_value="world",
+                default_value="wheel_odom",
                 description="",
             ),
             DeclareLaunchArgument(
