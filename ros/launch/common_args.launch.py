@@ -11,7 +11,7 @@ def generate_launch_description():
             ),
             DeclareLaunchArgument(
                 "use_2d_lidar",
-                default_value="false",
+                default_value="true",
                 description="",
                 choices=["true", "false"],
             ),
@@ -27,12 +27,12 @@ def generate_launch_description():
             ),
             DeclareLaunchArgument(
                 "wheel_odom_frame",
-                default_value="odom",
+                default_value="world",
                 description="",
             ),
             DeclareLaunchArgument(
                 "base_frame",
-                default_value="base_footprint",
+                default_value="f1tenth_1",
                 description="",
             ),
             DeclareLaunchArgument(
